@@ -1,102 +1,59 @@
-[09:42:51] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.11
-[09:42:51] [main/INFO]: Loading 4 mods:
-	- fabricloader 0.15.11
-	   \-- mixinextras 0.3.5
-	- java 21
-	- minecraft 1.20.4
-[09:42:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/Server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[09:42:57] [main/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
-	at net.minecraft.class_3808.method_16727(class_3808.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3806.method_16714(class_3806.java:138) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3807.<init>(class_3807.java:12) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:112) ~[server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[09:42:57] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:42:59] [main/INFO]: No existing world data, creating new world
-[09:42:59] [main/INFO]: Loaded 7 recipes
-[09:42:59] [main/INFO]: Loaded 1271 advancements
-[09:43:00] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[09:43:00] [Server thread/INFO]: Loading properties
-[09:43:00] [Server thread/INFO]: Default game type: SURVIVAL
-[09:43:00] [Server thread/INFO]: Generating keypair
-[09:43:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:43:00] [Server thread/INFO]: Using epoll channel type
-[09:43:00] [Server thread/INFO]: Preparing level "world"
-[09:43:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:43:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[09:43:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[09:43:07] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[09:43:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[09:43:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[09:43:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[09:43:10] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[09:43:10] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[09:43:10] [Worker-Main-1/INFO]: Preparing spawn area: 1%
-[09:43:10] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[09:43:11] [Worker-Main-3/INFO]: Preparing spawn area: 3%
-[09:43:11] [Worker-Main-1/INFO]: Preparing spawn area: 4%
-[09:43:12] [Worker-Main-2/INFO]: Preparing spawn area: 5%
-[09:43:12] [Worker-Main-1/INFO]: Preparing spawn area: 7%
-[09:43:13] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[09:43:13] [Worker-Main-2/INFO]: Preparing spawn area: 10%
-[09:43:14] [Worker-Main-2/INFO]: Preparing spawn area: 12%
-[09:43:14] [Worker-Main-1/INFO]: Preparing spawn area: 15%
-[09:43:15] [Worker-Main-1/INFO]: Preparing spawn area: 17%
-[09:43:15] [Worker-Main-2/INFO]: Preparing spawn area: 19%
-[09:43:16] [Worker-Main-2/INFO]: Preparing spawn area: 22%
-[09:43:16] [Worker-Main-1/INFO]: Preparing spawn area: 24%
-[09:43:17] [Worker-Main-2/INFO]: Preparing spawn area: 27%
-[09:43:17] [Worker-Main-3/INFO]: Preparing spawn area: 31%
-[09:43:18] [Worker-Main-3/INFO]: Preparing spawn area: 32%
-[09:43:18] [Worker-Main-2/INFO]: Preparing spawn area: 35%
-[09:43:19] [Worker-Main-3/INFO]: Preparing spawn area: 38%
-[09:43:19] [Worker-Main-2/INFO]: Preparing spawn area: 42%
-[09:43:20] [Worker-Main-3/INFO]: Preparing spawn area: 43%
-[09:43:20] [Worker-Main-3/INFO]: Preparing spawn area: 45%
-[09:43:21] [Worker-Main-1/INFO]: Preparing spawn area: 48%
-[09:43:21] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[09:43:22] [Worker-Main-3/INFO]: Preparing spawn area: 54%
-[09:43:22] [Worker-Main-2/INFO]: Preparing spawn area: 56%
-[09:43:23] [Worker-Main-1/INFO]: Preparing spawn area: 59%
-[09:43:23] [Worker-Main-3/INFO]: Preparing spawn area: 62%
-[09:43:24] [Worker-Main-2/INFO]: Preparing spawn area: 65%
-[09:43:24] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[09:43:25] [Worker-Main-1/INFO]: Preparing spawn area: 71%
-[09:43:25] [Worker-Main-2/INFO]: Preparing spawn area: 72%
-[09:43:26] [Worker-Main-2/INFO]: Preparing spawn area: 75%
-[09:43:26] [Worker-Main-2/INFO]: Preparing spawn area: 78%
-[09:43:27] [Worker-Main-2/INFO]: Preparing spawn area: 82%
-[09:43:27] [Worker-Main-3/INFO]: Preparing spawn area: 85%
-[09:43:28] [Worker-Main-2/INFO]: Preparing spawn area: 87%
-[09:43:28] [Worker-Main-3/INFO]: Preparing spawn area: 89%
-[09:43:29] [Worker-Main-1/INFO]: Preparing spawn area: 93%
-[09:43:29] [Worker-Main-2/INFO]: Preparing spawn area: 96%
-[09:43:30] [Worker-Main-2/INFO]: Preparing spawn area: 99%
-[09:43:30] [Server thread/INFO]: Time elapsed: 24021 ms
-[09:43:30] [Server thread/INFO]: Done (29.371s)! For help, type "help"
-[09:46:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[09:46:43] [Server thread/INFO]: home/codespace/.python/current/bin/python3 /workspaces/Server/servidor.py<--[HERE]
-[09:46:57] [Server thread/INFO]: Stopping the server
-[09:46:57] [Server thread/INFO]: Stopping server
-[09:46:57] [Server thread/INFO]: Saving players
-[09:46:57] [Server thread/INFO]: Saving worlds
-[09:46:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:47:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[09:47:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[09:47:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:47:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:47:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:47:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:23:25] [Craft Scheduler Thread - 808 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:23:25] [Craft Scheduler Thread - 808 - Vault/INFO]: [Vault] No new version available
+[05:24:01] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[05:24:11] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[07:32:56] [Server thread/INFO]: Stopping the server
+[07:32:56] [Server thread/INFO]: Stopping server
+[07:32:56] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.0.6
+[07:32:56] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.136
+[07:32:56] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.0-dev+78-c60ed56
+[07:32:56] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.1.13
+[07:32:56] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion itemedit
+[07:32:56] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin ItemEdit was disabled.
+[07:32:56] [Server thread/INFO]: [MineableGems] Disabling MineableGems v1.11.3
+[07:32:56] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.23
+[07:32:56] [Server thread/INFO]: [ProtectionStones] Disabling ProtectionStones v2.10.4
+[07:32:56] [Server thread/INFO]: [RealMines] Disabling RealMines v1.7.3
+[07:32:56] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.19.0
+[07:32:56] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.5
+[07:32:56] [Server thread/INFO]: [SuperEnchants] Disabling SuperEnchants v0.0.3
+[07:32:56] [Server thread/INFO]: [SuperEnchants] [STDOUT] SuperEnchants has been disabled!
+[07:32:56] [Server thread/WARN]: Nag author(s): '[]' of 'SuperEnchants v0.0.3' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[07:32:56] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+78-c60ed56
+[07:32:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[07:32:56] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[07:32:56] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[07:32:56] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[07:32:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[07:32:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[07:32:56] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[07:32:56] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.126
+[07:32:56] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:32:56] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:32:56] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:32:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[07:32:56] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[07:32:56] [Server thread/INFO]: Saving players
+[07:32:56] [Server thread/INFO]: Saving worlds
+[07:32:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:32:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:32:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:32:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:32:57] [Server thread/INFO]: [ChunkHolderManager] Saved 16 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.79s
+[07:32:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:32:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:32:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:32:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:32:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:32:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 22 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
+[07:32:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:32:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:32:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:32:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:32:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:32:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[07:32:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:32:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:32:57] [Server thread/INFO]: Flushing Chunk IO
+[07:32:57] [Server thread/INFO]: Closing Thread Pool
+[07:32:57] [Server thread/INFO]: Closing Server
